@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup Label="Main">
+    <TargetFramework>net8.0</TargetFramework>
+    <NoWarn>1573;1587;1591</NoWarn>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <PropertyGroup Label="Package">
+    <Version>0.0.1</Version>
+    <Authors>DCoats</Authors>
+    <Company>Rivet</Company>
+    <Copyright>Copyright © Rivet 2024</Copyright>
+    <Description>Construction console project for the R5T.R0014 library project.</Description>
+    <RepositoryUrl>https://github.com/SafetyCone/R5T.R0014</RepositoryUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\R5T.R0014\R5T.R0014.csproj" />
+  </ItemGroup>
+</Project>
